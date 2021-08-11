@@ -154,12 +154,43 @@ table {
   margin-top: 2.5rem;
   display: flex;
 }
-
-.prefix-text,
-.author-name,
-.slogan-text {
+.banner .prefix-text,
+.banner .author-name,
+.banner .slogan-text {
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.about-page {
+  background: #fff;
+  max-width: 412px;
+  height: 958px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-page .about-list {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.about-page .about-list .portrait-img {
+  padding: 0 0.875rem;
+}
+.about-page .list-red-circle {
+  height: 22px;
+  width: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.about-page .career-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
 }
 
 .fs-80 {
@@ -170,8 +201,28 @@ table {
   font-size: 24px;
 }
 
+.fs-64 {
+  font-size: 64px;
+}
+
 .mr-1rem {
   margin-right: 1rem;
+}
+
+.mt-0_5rem {
+  margin-top: 0.5rem !important;
+}
+
+.mt-1_25rem {
+  margin-top: 1.25rem !important;
+}
+
+.mt-1_5rem {
+  margin-top: 1.5rem !important;
+}
+
+.mt-1_75rem {
+  margin-top: 1.75rem !important;
 }
 
 .mt-2rem {
