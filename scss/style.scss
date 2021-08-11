@@ -1,5 +1,49 @@
 @import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap");
 
-.okla {
-  color: pink;
+.banner {
+  max-width: 1920px;
+  height: 958px;
+  margin: 0 auto;
+  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:27f2c1f7-6c48-42b5-a5fa-6db8eec461a5;revision=0?component_id=9d8b3f1a-5fdb-4d5e-91a5-0ba8a32d8fbc&api_key=CometServer1&access_token=1628694852_urn%3Aaaid%3Asc%3AUS%3A27f2c1f7-6c48-42b5-a5fa-6db8eec461a5%3Bpublic_423c9171c8e86dbf6bdfb5522c40c69e3e36fcfe");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  .banner-info {
+    width: 304px;
+    margin: 0 auto;
+
+    .banner-icon-list {
+      margin-top: 2.5rem;
+      display: flex;
+    }
+  }
+}
+
+.prefix-text,
+.author-name,
+.slogan-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.fs-80 {
+  font-size: 80px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
+.mr-1rem {
+  margin-right: 1rem;
+}
+.mt-2rem {
+  margin-top: 2rem !important;
+}
+.mt-2_5rem {
 }
