@@ -200,6 +200,11 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3.5rem 0;
+}
+.brand-page .brand-desc {
+  max-width: 320px !important;
+  text-align: center;
 }
 .brand-page .brand-list {
   max-width: 1200px;
@@ -211,11 +216,13 @@ table {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: solid 1px green;
+  margin-top: 68px;
+  background-color: red;
+  margin-bottom: 8.25rem !important;
 }
 
-.fs-80 {
-  font-size: 80px;
+.fs-20 {
+  font-size: 20px;
 }
 
 .fs-24 {
@@ -226,12 +233,28 @@ table {
   font-size: 64px;
 }
 
+.fs-80 {
+  font-size: 80px;
+}
+
 .mr-1rem {
   margin-right: 1rem;
 }
 
+.mr-1_5rem {
+  margin-right: 1.5rem;
+}
+
 .mt-0_5rem {
   margin-top: 0.5rem !important;
+}
+
+.mt-0_75rem {
+  margin-top: 0.75rem !important;
+}
+
+.mt-1rem {
+  margin-top: 1rem !important;
 }
 
 .mt-1_25rem {

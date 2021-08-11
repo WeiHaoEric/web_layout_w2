@@ -76,6 +76,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3.5rem 0;
+
+  .brand-desc {
+    max-width: 320px !important;
+    text-align: center;
+  }
 
   .brand-list {
     max-width: 1200px;
@@ -88,13 +94,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 68px;
 
-    border: solid 1px green;
+    // border: solid 1px green;
+    background-color: red;
+    margin-bottom: 8.25rem !important;
   }
 }
 
-.fs-80 {
-  font-size: 80px;
+.fs-20 {
+  font-size: 20px;
 }
 .fs-24 {
   font-size: 24px;
@@ -102,13 +111,25 @@
 .fs-64 {
   font-size: 64px;
 }
+.fs-80 {
+  font-size: 80px;
+}
 
 .mr-1rem {
   margin-right: 1rem;
 }
+.mr-1_5rem {
+  margin-right: 1.5rem;
+}
 
 .mt-0_5rem {
   margin-top: 0.5rem !important;
+}
+.mt-0_75rem {
+  margin-top: 0.75rem !important;
+}
+.mt-1rem {
+  margin-top: 1rem !important;
 }
 .mt-1_25rem {
   margin-top: 1.25rem !important;
