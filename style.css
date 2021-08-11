@@ -136,7 +136,6 @@ table {
 
 .banner {
   max-width: 1920px;
-  height: 958px;
   margin: 0 auto;
   background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:27f2c1f7-6c48-42b5-a5fa-6db8eec461a5;revision=0?component_id=9d8b3f1a-5fdb-4d5e-91a5-0ba8a32d8fbc&api_key=CometServer1&access_token=1628694852_urn%3Aaaid%3Asc%3AUS%3A27f2c1f7-6c48-42b5-a5fa-6db8eec461a5%3Bpublic_423c9171c8e86dbf6bdfb5522c40c69e3e36fcfe");
   background-size: cover;
@@ -144,7 +143,7 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  padding: 19.25rem 0;
 }
 .banner .banner-info {
   width: 304px;
@@ -164,7 +163,6 @@ table {
 .about-page {
   background: #fff;
   max-width: 412px;
-  height: 958px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -174,6 +172,7 @@ table {
 .about-page .about-list {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin: 3.5rem 0;
 }
 .about-page .about-list .portrait-img {
   padding: 0 0.875rem;
@@ -191,6 +190,17 @@ table {
   font-weight: bold;
   font-style: italic;
   text-align: center;
+}
+
+.brand-page {
+  background: #000;
+  max-width: 1200px;
+  height: 958px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fs-80 {
