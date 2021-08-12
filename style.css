@@ -234,13 +234,30 @@ table {
   font-family: "Roboto", sans-serif;
 }
 .other-work-page .product-list {
-  margin-bottom: 188px;
+  margin-bottom: 144px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .other-work-page .product-list .img-text {
   text-align: center;
+}
+
+.contact-page {
+  max-width: 1920px;
+  background: #000;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.lh36px {
+  line-height: 36px;
 }
 
 .fs-20 {
