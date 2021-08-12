@@ -172,7 +172,6 @@ table {
 .about-page .about-list {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 3.5rem 0;
 }
 .about-page .about-list .portrait-img {
   padding: 0 0.875rem;
@@ -224,6 +223,17 @@ table {
   margin-bottom: 8.25rem !important;
 }
 
+.other-wrok {
+  background: #000;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 0;
+}
+
 .fs-20 {
   font-size: 20px;
 }
@@ -246,6 +256,10 @@ table {
 
 .mr-1_5rem {
   margin-right: 1.5rem;
+}
+
+.mb-3_5rem {
+  margin-bottom: 3.5rem;
 }
 
 .mt-0_5rem {
@@ -278,6 +292,10 @@ table {
 
 .mt-2_5rem {
   margin-top: 2.5rem !important;
+}
+
+.mt-3_5rem {
+  margin-top: 3.5rem !important;
 }
 
 /*# sourceMappingURL=style.css.map */
