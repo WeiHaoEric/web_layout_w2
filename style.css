@@ -223,15 +223,24 @@ table {
   margin-bottom: 8.25rem !important;
 }
 
-.other-wrok {
-  background: #000;
-  max-width: 1920px;
+.other-work-page {
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3.5rem 0;
+  font-family: "Roboto", sans-serif;
+}
+.other-work-page .product-list {
+  margin-bottom: 188px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.other-work-page .product-list .img-text {
+  text-align: center;
 }
 
 .fs-20 {
@@ -292,6 +301,10 @@ table {
 
 .mt-2_5rem {
   margin-top: 2.5rem !important;
+}
+
+.mt-3rem {
+  margin-top: 3rem !important;
 }
 
 .mt-3_5rem {
