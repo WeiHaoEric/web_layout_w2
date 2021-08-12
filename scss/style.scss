@@ -4,7 +4,7 @@
 .banner {
   max-width: 1920px;
   margin: 0 auto;
-  background: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:27f2c1f7-6c48-42b5-a5fa-6db8eec461a5;revision=0?component_id=9d8b3f1a-5fdb-4d5e-91a5-0ba8a32d8fbc&api_key=CometServer1&access_token=1628694852_urn%3Aaaid%3Asc%3AUS%3A27f2c1f7-6c48-42b5-a5fa-6db8eec461a5%3Bpublic_423c9171c8e86dbf6bdfb5522c40c69e3e36fcfe");
+  background: url("../assets/banner-cover.png");
   background-size: cover;
   background-position: center;
 
@@ -68,6 +68,10 @@
   }
 }
 
+.f-italic {
+  font-style: italic;
+}
+
 .brand-page {
   background: #000;
   max-width: 1920px;
@@ -97,7 +101,7 @@
     margin-top: 68px;
 
     // border: solid 1px green;
-    background-color: red;
+    // background-color: red;
     margin-bottom: 8.25rem !important;
   }
 }
